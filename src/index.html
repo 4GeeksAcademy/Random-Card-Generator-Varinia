@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" href="./assets/img/4geeks.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello Rigo with Vanilla.js</title>
+  <title>Generador de Cartas Aleatorio</title>
 
   <!-- Fontawesome is our recomended library for icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -14,24 +14,26 @@
 
 <body>
   <!-- Write your HTML code here, you can delete everything withing the body tags -->
-  <div class="card rounded-3">
-    <div class="card-body">
-       <div class="container gap-4">
-        <div class="row">
-          <div class="col align-self-start text-start ">
+  <div class="card">
+    <div class="body">
+       <!-- <div class="container text-center"> -->
+        <!-- <div class="row"> -->
+           <div class="icon1">
             <p class="top icon"></p>
           </div>
-        </br>
-          <div class="col align-self-center text-center">
+          <div>
             <p id="number"></p>
           </div>
-        </br>
-          <div class="col align-self-end text-end">
+          <div class="icon2">
             <p class="bottom icon"></p>
           </div>
-        </div>
-      </div>
+        <!-- </div> 
+      </div> -->
     </div>
+  </div>
+</br>
+  <div class="d-grid gap-2 col-2 mx-auto">
+      <button id="btn-recargar" class="btn btn-secondary btn-sm">New Card</button>
   </div>
   <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
   <script type="module" src="/app.js"></script>

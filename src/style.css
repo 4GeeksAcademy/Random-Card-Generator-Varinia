@@ -2,20 +2,43 @@
 
 body{
     background: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .card{
-    margin: auto;
-    width: 250px;
-    height: 350px;
+    margin:auto;
+    width: 260px;
+    height: 380px;
     border-radius: 1px solid black;
+    display: flex;
 }
 .icon{
     font-size: 55px;
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
         
 }
 #number{
     font-size: 125px;
+    margin: 0px;
+    
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.icon1{
+    display: flex;
+    justify-content: start;
+    margin: 5px;
+    margin-left: 7px;
+}
+.icon2{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    margin-right: 7px;
 }
 
