@@ -8,12 +8,14 @@ body{
     margin: auto;
     width: 250px;
     height: 350px;
-    padding: 20px;
     border-radius: 1px solid black;
 }
-.♦ {
-    color: red;
+.icon{
+    font-size: 55px;
+    padding: 5px;
+        
 }
-.♥ {
-    color: red;
+#number{
+    font-size: 125px;
 }
+
