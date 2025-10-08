@@ -16,7 +16,6 @@ window.onload = function () {
   const pintaAleatoria = pinta[indiceAleatorio];
   iconElements.forEach(el => {
     el.textContent = pintaAleatoria;
-    //propiedades iconos
     if (pintaAleatoria === '♦' || pintaAleatoria === '♥') {
       el.style.color = 'red';
     } else {
@@ -25,14 +24,11 @@ window.onload = function () {
   });
   const parrafo = document.getElementById('number');
   parrafo.style.textAlign = 'center';
-}
-//funcion para cargar carta cada 10 segundos
-setTimeout(function () {
-  location.reload();
-}, 10000);
-//funcion al boton para generar nueva carta
 let botonRecargar = document.getElementById('btn-recargar');
 botonRecargar.addEventListener('click', function () {
   location.reload();
 })
+setTimeout(generarCarta, 10000);
+}
+
 
